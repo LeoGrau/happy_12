@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Love+Light&family=Pangolin&family=Tilt+Neon&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+} /* just to be sure these are full screen*/
+
+main {
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Bungee Spice", cursive;
+  font-size: 29px;
+  color: cornflowerblue;
+}
+
+.btn {
+  border-radius: 3px;
+  border: none;
+}
+
+.reason {
+  background-color: rgb(143, 98, 248);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-family: "Pangolin", cursive;
+  transition: background-color 0.2s ease;
+}
+
+.reason:hover {
+  background-color: rgb(181, 150, 255);
+}
+
+#card-reason {
+  background-color: rgb(255, 249, 220);
+  padding: 10px 20px;
+  font-family: 'Tilt Neon', cursive;
+  border-radius: 0 10px 0 10px;
+}
+
+canvas {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
