@@ -37,8 +37,9 @@ function main() {
     { id: 20, reason: "Me encantan nuestros temas" },
     { id: 21, reason: "Amo dormir contigo" },
     { id: 22, reason: "Amo tus bailes random cuando escuchas tu musica lacrix" },
-    { id: 22, reason: "No sales de mi cabeza." },
-    { id: 22, reason: "Tu qlote bebe ❤" },
+    { id: 23, reason: "No sales de mi cabeza." },
+    { id: 24, reason: "Tu qlote bebe ❤" },
+    { id: 25, reason: "Cuando me equivoco, me corriges con ternura y besos." },
   ];
 
   getRandomReason(reasons);
