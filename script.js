@@ -40,6 +40,8 @@ function main() {
     { id: 23, reason: "No sales de mi cabeza." },
     { id: 24, reason: "Tu qlote bebe ❤" },
     { id: 25, reason: "Cuando me equivoco, me corriges con ternura y besos." },
+    { id: 26, reason: "Me encanto nuestro primer beso en la lluvia" },
+    { id: 27, reason: "Me encanta la idea de verte hacer maquetas" },
   ];
 
   getRandomReason(reasons);
